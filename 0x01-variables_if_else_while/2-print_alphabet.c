@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Return 0
+ * Return:0
  */
 int main(void)
 {
@@ -15,8 +15,6 @@ int main(void)
 		c++;
 	}
 
-	putchar("\n");
-
+	putchar('\n');
 	return (0);
 }
-
