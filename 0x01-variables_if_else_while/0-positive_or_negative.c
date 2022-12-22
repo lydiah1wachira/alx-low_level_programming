@@ -2,8 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
- *function main - Entry Point
+/**
+ * main - Entry Point
  *
  * Return:0
  */
