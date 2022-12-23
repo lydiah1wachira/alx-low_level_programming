@@ -9,7 +9,7 @@ int main(void)
 {
 	int c = 0;
 
-	while(c < 10)
+	while (c < 10)
 	{
 		putchar(48 + c);
 		if (c != 9)
@@ -21,5 +21,4 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
-	
 }
