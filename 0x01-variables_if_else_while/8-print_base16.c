@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - entry point
+ * main - Entry point
  *
  * Return: 0
  */
@@ -14,12 +14,14 @@ int main(void)
 		putchar(numbers);
 	}
 
-	char letters;
+	char letters = 'a';
 
 	for (letters = 'a'; letters <= 'f'; letters++)
 	{
 		putchar(letters);
 	}
+
 	putchar('\n');
+
 	return (0);
 }
