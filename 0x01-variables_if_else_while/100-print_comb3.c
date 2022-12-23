@@ -2,7 +2,8 @@
 #include <stdlib.h>
 /**
  * main - Entry point
- * Description: function to print all possible different combinations of two digits.
+ * Description: function to print all possible
+ *different combinations of two digits.
  * Return: 0
  */
 int main(void)
