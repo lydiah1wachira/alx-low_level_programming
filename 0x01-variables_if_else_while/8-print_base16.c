@@ -7,14 +7,12 @@
  */
 int main(void)
 {
-	int numbers;
+	char letters;
 
-	for (numbers = 0; numbers <= 9; numbers++)
+	for (letters = 0; letters <= 9; letters++)
 	{
-		putchar(numbers);
+		putchar(letters);
 	}
-
-	char letters = 'a';
 
 	for (letters = 'a'; letters <= 'f'; letters++)
 	{
