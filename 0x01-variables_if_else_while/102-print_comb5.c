@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main - entry point 
- * Description: program  to print all possible 
+ * main - entry point
+ * Description: program to print all possible
  * combinations of two two-digit numbers
  *
  * Return: 0
@@ -22,14 +22,12 @@ int main(void)
 				putchar(f / 10 + 48);
 				putchar(f % 10 + 48);
 
-				if (e * 100 + f != 9899)
-				{
-					putchar(',');
-					putchar(' ');
-				}
+				if (i * 100 + j 
+						
+						
+						
+						!= 9899)
 			}
 		}
 	}
-	putchar('\n');
-	return (0);
 }
