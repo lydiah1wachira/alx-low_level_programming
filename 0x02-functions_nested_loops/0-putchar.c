@@ -8,7 +8,7 @@ int main(void)
 {
 	char text[] = "_putchar";
 
-	for (count = 0; count <=10; count++)
+	for (int count = 0; count <=10; count++)
 	{
 		putchar(text[count]);
 	}
