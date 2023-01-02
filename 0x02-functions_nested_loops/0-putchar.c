@@ -10,7 +10,7 @@ int main(void)
 
 	int count;
 
-	for (count = 0; count <=10; count++)
+	for (count = 0; count < 8; count++)
 	{
 		_putchar(text[count]);
 	}
