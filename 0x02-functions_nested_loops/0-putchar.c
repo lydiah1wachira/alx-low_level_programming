@@ -8,9 +8,11 @@ int main(void)
 {
 	char text[] = "_putchar";
 
-	for (int count = 0; count <=10; count++)
+	int count;
+
+	for (count = 0; count <=10; count++)
 	{
-		putchar(text[count]);
+		_putchar(text[count]);
 	}
 	putchar('\n');
 	return (0);
