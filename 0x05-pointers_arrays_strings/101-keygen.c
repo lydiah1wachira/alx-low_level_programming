@@ -8,8 +8,7 @@
  * main - print password
  * Return: 0.
  */
-
-int main (void)
+int main(void)
 {
 	int ascii = 2772, i = 0, j, random;
 
