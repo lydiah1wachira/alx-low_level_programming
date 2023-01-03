@@ -2,10 +2,9 @@
 #include <stdlib.h>
 #include <time.h>
 #include <math.h>
-#include "main.h"
 
 /**
- * main - print password
+ * main - print password.
  * Return: 0.
  */
 int main(void)
@@ -21,11 +20,8 @@ int main(void)
 	while (ascii > 126)
 	{
 		random = rand() % 126;
-
 		password[i] = random;
-
 		ascii -= random;
-
 		i++;
 	}
 	if (ascii > 0)
